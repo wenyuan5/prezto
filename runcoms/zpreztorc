@@ -33,6 +33,8 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'editor' \
   'environment' \
+  'git' \
+  'git-of-oh-my-zsh' \
   'history' \
   'prompt' \
   'spectrum' \

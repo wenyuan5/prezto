@@ -10,6 +10,7 @@ Custom
 
 1. 修改默认配置项
 1. 使用 oh-my-zsh 的 git 插件别名，弃用 prezto 的 git 插件别名
+1. `urltools`
 
 Installation
 ------------

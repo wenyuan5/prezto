@@ -68,6 +68,7 @@ zstyle -s ':prezto:module:git:status:ignore' submodules '_git_status_ignore_subm
   # alias gcr='git revert'
   # alias gcR='git reset "HEAD^"'
   # alias gcs='git show'
+  # alias gcsS='git show --pretty=short --show-signature'
   # alias gcl='git-commit-lost'
   # alias gcy='git cherry -v --abbrev'
   # alias gcY='git cherry -v'
@@ -182,14 +183,15 @@ zstyle -s ':prezto:module:git:status:ignore' submodules '_git_status_ignore_subm
 #   alias gix='git rm -r --cached'
 #   alias giX='git rm -rf --cached'
 
-#   # Log (l)
-#   alias gl='git log --topo-order --pretty=format:"${_git_log_medium_format}"'
-#   alias gls='git log --topo-order --stat --pretty=format:"${_git_log_medium_format}"'
-#   alias gld='git log --topo-order --stat --patch --full-diff --pretty=format:"${_git_log_medium_format}"'
-#   alias glo='git log --topo-order --pretty=format:"${_git_log_oneline_format}"'
-#   alias glg='git log --topo-order --all --graph --pretty=format:"${_git_log_oneline_format}"'
-#   alias glb='git log --topo-order --pretty=format:"${_git_log_brief_format}"'
-#   alias glc='git shortlog --summary --numbered'
+  # Log (l)
+  # alias gl='git log --topo-order --pretty=format:"${_git_log_medium_format}"'
+  # alias gls='git log --topo-order --stat --pretty=format:"${_git_log_medium_format}"'
+  # alias gld='git log --topo-order --stat --patch --full-diff --pretty=format:"${_git_log_medium_format}"'
+  # alias glo='git log --topo-order --pretty=format:"${_git_log_oneline_format}"'
+  # alias glg='git log --topo-order --all --graph --pretty=format:"${_git_log_oneline_format}"'
+  # alias glb='git log --topo-order --pretty=format:"${_git_log_brief_format}"'
+  # alias glc='git shortlog --summary --numbered'
+  # alias glS='git log --show-signature'
 
 #   # Merge (m)
 #   alias gm='git merge'
@@ -252,9 +254,11 @@ zstyle -s ':prezto:module:git:status:ignore' submodules '_git_status_ignore_subm
 #   alias gSu='git submodule foreach git pull origin master'
 #   alias gSx='git-submodule-remove'
 
-#   # Tag (t)
-#   alias gt='git tag'
-#   alias gtl='git tag -l'
+  # Tag (t)
+  # alias gt='git tag'
+  # alias gtl='git tag -l'
+  # alias gts='git tag -s'
+  # alias gtv='git verify-tag'
 
 #   # Working Copy (w)
 #   alias gws='git status --ignore-submodules=${_git_status_ignore_submodules} --short'

@@ -127,6 +127,12 @@ Resources
 
 The [Zsh Reference Card][7] and the [zsh-lovers][8] man page are indispensable.
 
+## Uninstall
+
+> from https://github.com/sorin-ionescu/prezto/issues/1123
+
+As for how to remove it, just delete all the .z\* files and directories in your home that are related to prezto. See the runcoms directory.
+
 License
 -------
 
